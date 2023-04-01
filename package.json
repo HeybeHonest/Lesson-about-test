@@ -1,0 +1,19 @@
+{
+  "name": "test-lesson",
+  "version": "1.0.0",
+  "description": "lessoun about tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KD",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "capitalize": "src/capitalize.js",
+    "tests": "test/capitalize.test.js"
+}
+}
